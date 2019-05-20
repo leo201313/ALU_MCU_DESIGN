@@ -16,5 +16,5 @@ Anything should be noticed recently will be pointed here, making this document u
 * Use the two_mux_one16bit module to create a 16_mux_one16bit module.
 ### Recently done:
 * Write the COMP model to achieve the compare function (Already done)
-
+* Write the bitwise or, and, nor... , and there are six modules in total.
 ## All files inluded in this repository belong to the team of Rong Fu,Yating Li, Mingrui Cao.
