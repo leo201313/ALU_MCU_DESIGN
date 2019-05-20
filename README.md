@@ -17,4 +17,7 @@ Anything should be noticed recently will be pointed here, making this document u
 ### Recently done:
 * Write the COMP model to achieve the compare function (Already done)
 * Write the bitwise or, and, nor... , and there are six modules in total.
+### References:
+* 16 bit ALU other student has done in [GitHub](https://github.com/RushikeshJagdale/16-bit-ALU-)
+* 32 bit ALU design with [unsigned number](http://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDHIS2&filename=HDZJ201312034&v=MTc0MzRxVHJXTTFGckNVUkxPZll1UnZGQ3JtV3J2QkxTblJaTEc0SDlMTnJZOUdZSVI4ZVgxTHV4WVM3RGgxVDM=)
 ## All files inluded in this repository belong to the team of Rong Fu,Yating Li, Mingrui Cao.
