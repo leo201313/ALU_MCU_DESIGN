@@ -10,11 +10,14 @@ Anything should be noticed recently will be pointed here, making this document u
 * There has been two models written for shifting, one is arithmetic shifting and the other is logistic shifting.
 * ADD_SUB model use the ripper-carry adder.
 * COMP now is wrriten to output the greater num or the less num using the super code.
+* Now the MUL module is active, however, it can only give the product of two 16bit num. Additionally, there are two output in this mudule which respectively denotes the head 16bit of the 32bit product and the tail 16bit.
 ### For things planned to do:
-* Write the MUL model to achieve the multiplication function
-* So the DIV module for devision should be done.
-* Use the two_mux_one16bit module to create a 16_mux_one16bit module.
+* DIV module for devision should be done which is in tense.
+* Use the two_mux_one16bit module to create a 16_mux_one16bit module, this can be done easily in theroy.
+* Create a decode table to make each function corresponding to a unique 5bit control code.
+* After completing the 16_mux_one16bit module and the decode table, we can then go ahead to the TOP module, wihch will call all the module, and we can get a global view of the ALU.
 ### Recently done:
+* Write the 16bit MUL model.
 * Write the COMP model to achieve the compare function (Already done)
 * Write the bitwise or, and, nor... , and there are six modules in total.
 ### References:
