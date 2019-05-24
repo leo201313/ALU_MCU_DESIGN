@@ -5,7 +5,7 @@ output [15:0] out_16;
 wire rn;
 wire [15:0] out_r,out_l;
 
-nor(rn,right);
+not(rn,right);
 //Ëã³öout_r
 or(out_r[0],in_16[1],rn);
 or(out_r[1],in_16[2],rn);
@@ -53,7 +53,7 @@ output [15:0] out_16;
 wire rn;
 wire [15:0] out_r,out_l;
 
-nor(rn,right);
+not(rn,right);
 //Ëã³öout_r
 or(out_r[0],in_16[1],rn);
 or(out_r[1],in_16[2],rn);
