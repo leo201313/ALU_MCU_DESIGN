@@ -2,6 +2,18 @@
 This is the repository for the course design of digital design.
 Anything should be noticed recently will be pointed here, making this document updateable.
 
+### Function Code:
+code | Function | code | Function
+-|-|-|-
+00000 | MUL | 00001 | ADD
+10001 | SUB | 00010 | LEFT log_SHIFT
+10010 | RIGHT log_SHIFT | 00011 | LEFT ari_SHIFT
+10011 | RIGHT ari_SHIFT | 10100  | COMP_great
+10101 |  COMP_less | 01000 | POS_AND
+01001 | POS_OR | 01010  | POS_NAND
+01011 | POS_NOR | 01100 | POS_XOR
+01101 | POS_XNOR
+
 ### For the things should draw attention:
 * ALU now is designed only get 16 bit in and out.
 * The control code is 5 bit, which 4 bit used to mux, and 1 bit(here I called super code) used as energy signal or a 1 bit control signal in some modules.
