@@ -20,9 +20,9 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 module POS_XNOR(
+output wire[15:0]OUT,
 input wire[15:0]A,
-input wire[15:0]B,
-output wire[15:0]OUT
+input wire[15:0]B
     );
 xnor xnor0(OUT[0],A[0],B[0]);    
 xnor xnor1(OUT[1],A[1],B[1]);  

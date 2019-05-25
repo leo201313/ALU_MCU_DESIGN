@@ -21,9 +21,9 @@
 
 
 module POS_NOR(
+output wire[15:0]OUT,
 input wire[15:0]A,
-input wire[15:0]B,
-output wire[15:0]OUT
+input wire[15:0]B
     );
 nor nor0(OUT[0],A[0],B[0]);    
 nor nor1(OUT[1],A[1],B[1]);  

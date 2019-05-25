@@ -21,9 +21,9 @@
 
 
 module POS_NAND(
+output wire[15:0]OUT,
 input wire[15:0]A,
-input wire[15:0]B,
-output wire[15:0]OUT
+input wire[15:0]B
     );
 nand nand0(OUT[0],A[0],B[0]);    
 nand nand1(OUT[1],A[1],B[1]);  

@@ -21,9 +21,9 @@
 
 
 module POS_XOR(
+output wire[15:0]OUT,
 input wire[15:0]A,
-input wire[15:0]B,
-output wire[15:0]OUT
+input wire[15:0]B
     );
 xor xor0(OUT[0],A[0],B[0]);    
 xor xor1(OUT[1],A[1],B[1]);  
